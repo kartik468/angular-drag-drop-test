@@ -10,6 +10,10 @@ export class AppComponent {
 
   list = [
     {
+      name: 'item 0',
+      value: 'item 0 value'
+    },
+    {
       name: 'item 1',
       value: 'item 1 value'
     },

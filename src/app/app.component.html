@@ -1,9 +1,9 @@
 <div class="items-container">
-  <div class="item-div" *ngFor="let item of list; index as i;" [id]="i" draggable="true" appCustomDraggable
+  <div class="item-div" *ngFor="let item of list; index as i;" [id]="i" appCustomDraggable
      [attr.data-value]="item.value">
     <div class="item-name">{{i}} {{item.name}}</div>
   </div>
 </div>
 
 
-<div class="droppable-div" appCustomDroppable></div>
+<div class="droppable-div" appCustomDroppable appCustomDroppable></div>
